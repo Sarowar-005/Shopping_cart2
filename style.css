@@ -1,0 +1,21 @@
+body{margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+#card-section{
+    background-color: rgb(212, 212, 212);
+    padding: 10px 20px;
+    height: 100vh;
+}
+.cart-item{
+    background-color: white;
+    padding: 20px;
+}
+.order-summary{
+    background-color: white;
+    margin-top: 22px;
+    padding: 20px;
+}
+

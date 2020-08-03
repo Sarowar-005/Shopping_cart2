@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart-2</title>
+    <!--Bootstrap cdn link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!--Font awesome cdn link-->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
+    <!--External cdn link-->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="card-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8">
+                    <div class="cart">
+                        <div id="iPhone11" class="cart-item my-4">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-5">
+                                    <img class="w-75" src="images/product-1.png" alt="">
+                                </div>
+                                <div class="col-md-4 col-sm-5 mt-4">
+                                    <h6>iPhone11 128GB Black</h6>
+                                    <p class="text-muted">Red, Black, Gray & Multicolor</p>
+                                </div>
+                                <div class="col-md-2 col-sm-2 mt-4">
+                                    <h6 class="text-center text-info">$<span id="iPhonePrice">1219</span></h6>
+                                    <p class="text-center text-danger">$<span class="del"><del>1230</del></span></p>
+                                    <p class="text-center"><span>-2%</span></p>
+                                </div>
+                                <div class="col-md-3 col-sm-6 mx-auto">
+                                    <div class="input-group">
+                                        <button id="iPhoneMinus"class="btn btn-default"><i class="fas fa-minus"></i></button>
+                                        <input id="iPhoneValue" class="form-control text-center font-weight-bold mx-2" type="text" name="" id="" value="1">
+                                        <button id="iPhonePlus" class="btn btn-default"><i class="fas fa-plus"></i></button>
+                                    </div>
+                                    <div class="mt-2">
+                                        <i id="iPhoneWish" class="fa fa-heart btn btn-default text-danger" aria-hidden="true"></i>
+                                        <i id="iPhoneDelete" class="fa fa-trash btn btn-default" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="iPhoneCase" class="cart-item my-4">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-5">
+                                    <img class="w-75" src="images/product-2.png" alt="">
+                                </div>
+                                <div class="col-md-4 col-sm-5 mt-4">
+                                    <h6>iPhone11 Silicon case</h6>
+                                    <p class="text-muted">Red, Black, Gray & Multicolor</p>
+                                </div>
+                                <div class="col-md-2 col-sm-2 mt-4">
+                                    <h6 class="text-center text-info">$<span id="casePrice">59</span></h6>
+                                    <p class="text-center text-danger">$<span class="del"><del>70</del></span></p>
+                                    <p class="text-center"><span>-2%</span></p>
+                                </div>
+                                <div class="col-md-3 col-sm-6 mx-auto">
+                                    <div class="input-group">
+                                        <button id="caseMinus" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                                        <input id="caseValue" class="form-control text-center font-weight-bold mx-2" type="text" name="" id="" value="1">
+                                        <button id="casePlus" class="btn btn-default"><i class="fas fa-plus"></i></button>
+                                    </div>
+                                    <div class="mt-2">
+                                        <i id="caseWish" class="fa fa-heart btn btn-default text-danger" aria-hidden="true"></i>
+                                        <i id="caseDelete" class="fa fa-trash btn btn-default" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div id="samsungS2" class="cart-item my-4">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-5">
+                                    <img class="w-75" src="images/product-3.png" alt="">
+                                </div>
+                                <div class="col-md-4 col-sm-5 mt-4">
+                                    <h6>Samsung S10 128GB Black</h6>
+                                    <p>Red, Black, Gray</p>
+                                </div>
+                                <div class="col-md-2 col-sm-2 mt-4">
+                                    <h6 class="text-center text-info">$<span id="smngPrice">1090</span></h6>
+                                    <p class="text-center text-danger">$<span class="del"><del>1100</del></span></p>
+                                    <p class="text-center"><span>-2%</span></p>
+                                </div>
+                                <div class="col-md-3 col-sm-6 mx-auto">
+                                    <div class="input-group">
+                                        <button id="smngMinus" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                                        <input  id="smngValue" class="form-control text-center font-weight-bold mx-2" type="text" name="" id="" value="1">
+                                        <button id="smngPlus" class="btn btn-default"><i class="fas fa-plus"></i></button>
+                                    </div>
+                                    <div class="mt-2">
+                                        <i id="smngWish" class="fa fa-heart btn btn-default text-danger" aria-hidden="true"></i>
+                                        <i id="smngDelete" class="fa fa-trash btn btn-default" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="order-summary">
+                        <h5 class="text-center my-4">Order Summary</h5>
+                    
+                        <div class="row">
+                            <div class="col-md-8 col-sm-6">
+                                <h6>Subtotal:</h6>
+                                <h6>Tax:</h6>
+                                <h6>Total:</h6>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <h6>$<span id="subTotal">2368</span></h6>
+                                <h6>$<span id="tex">0</span></h6>
+                                <h6>$<span id="total">2368</span></h6>
+                            </div>
+                        </div>
+                        <button id="checkOut" class="btn btn-warning mt-4">ORDER</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
